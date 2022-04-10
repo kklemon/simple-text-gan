@@ -1,0 +1,16 @@
+fit:
+  data:
+    seq_len: 32
+    batch_size: 128
+
+  model:
+    latent_dim: 256
+    num_blocks: 5
+    seq_len: 32
+    kernel_size: 3
+
+    g_lr: 1e-4
+    d_lr: 4e-4
+
+  trainer:
+    gpus: 1
